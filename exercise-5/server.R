@@ -2,6 +2,16 @@
 
 #Require the following: shiny, HSUAR, dyplr, and ggplot2
 
+install.packages('shiny')
+install.packages('HSUAR')
+install.packages('dyplr')
+install.packages('ggplot2')
+
+
+library('shiny')
+library('HSUAR')
+library('dyplr')
+library('ggplot2')
 
 #Load the dataset 'womensrole' from the HSUAR package (same way you would load a built in dataset)
 
